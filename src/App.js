@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./sas.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="row">
+        <h2>Branding</h2>
+        <div className="grid">
+          <div className="box akcent"><div/><h4>BRAND ACCENT</h4></div>
+          <div className="box brand1"><div/><h4>BRAND THEME 1</h4></div>
+          <div className="box brand2"><div/><h4>BRAND THEME 2</h4></div>
+          <div className="box brandshadow1"><div/><h4>BRAND THEME SHADOW 1</h4></div>
+          <div className="box brandshadow2"><div/><h4>BRAND THEME SHADOW 2</h4></div>
+        </div>
+      </div>
+      <div className="row">
+        <h2>Backdrops</h2>
+        <div className="grid">
+          <div className="box solid-main"><div/><h4>DUCK MUSIC SOLID MAIN</h4></div>
+          <div className="box sidenav-black"><div/><h4>DUCK MUSIC SIDENAV</h4></div>
+          <div className="box sidenav-active"><div/><h4>DUCK MUSIC SIDENAV ACTIVE</h4></div>
+          <div className="box mobile-side"><div/><h4>DUCK MUSIC MOBILE SIDEBAR</h4></div>
+        </div>
+      </div>
+      <div className="row">
+        <h2>Text colors</h2>
+        <div className="grid">
+          <div className="box text-gray"><div/><h4>TEXT GRAY</h4></div>
+          <div className="box text-white"><div/><h4>TEXT WHITE</h4></div>
+        </div>
+      </div>
     </div>
   );
 }
