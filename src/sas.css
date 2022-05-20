@@ -101,3 +101,16 @@
 .mobile-side {
     background: var(--mobile-side);
 }
+.btns {
+    background: var(--btns);
+}
+.sepe {
+    background: var(--sepe);
+}
+.menu {
+    background: var(--menu);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}

@@ -21,6 +21,7 @@ function App() {
           <div className="box sidenav-black"><div/><h4>DUCK MUSIC SIDENAV</h4></div>
           <div className="box sidenav-active"><div/><h4>DUCK MUSIC SIDENAV ACTIVE</h4></div>
           <div className="box mobile-side"><div/><h4>DUCK MUSIC MOBILE SIDEBAR</h4></div>
+          <div className="box menu"><div/><h4>MENU</h4></div>
         </div>
       </div>
       <div className="row">
@@ -28,6 +29,13 @@ function App() {
         <div className="grid">
           <div className="box text-gray"><div/><h4>TEXT GRAY</h4></div>
           <div className="box text-white"><div/><h4>TEXT WHITE</h4></div>
+        </div>
+      </div>
+      <div className="row">
+        <h2>Buttons</h2>
+        <div className="grid">
+          <div className="box btns"><div/><h4>DEFAULT BUTTON</h4></div>
+          <div className="box sepe"><div/><h4>SECONDARY BUTTON</h4></div>
         </div>
       </div>
     </div>
