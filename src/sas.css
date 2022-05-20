@@ -8,7 +8,7 @@
 }
 
 .row {
-    height: calc(10vw + 90px);
+    height: auto;
 }
 
 .App {
@@ -109,6 +109,21 @@
 }
 .menu {
     background: var(--menu);
+}
+.dslogin {
+    background: var(--dslogin);
+}
+.third {
+    background: var(--third);
+}
+.primary-bg {
+    background: var(--primary-bg);
+}
+.primary {
+    background: var(--primary);
+}
+.range {
+    background: var(--range);
 }
 
 ::-webkit-scrollbar {

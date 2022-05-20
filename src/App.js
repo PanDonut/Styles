@@ -22,6 +22,10 @@ function App() {
           <div className="box sidenav-active"><div/><h4>DUCK MUSIC SIDENAV ACTIVE</h4></div>
           <div className="box mobile-side"><div/><h4>DUCK MUSIC MOBILE SIDEBAR</h4></div>
           <div className="box menu"><div/><h4>MENU</h4></div>
+          <div className="box third"><div/><h4>DUCK STORE THIRD THEME</h4></div>
+          <div className="box primary-bg"><div/><h4>DUCK STORE PRIMARY BACKGROUND THEME</h4></div>
+          <div className="box primary"><div/><h4>DUCK STORE PRIMARY THEME</h4></div>
+          <div className="box range"><div/><h4>DUCK STORE RANGE</h4></div>
         </div>
       </div>
       <div className="row">
@@ -36,6 +40,7 @@ function App() {
         <div className="grid">
           <div className="box btns"><div/><h4>DEFAULT BUTTON</h4></div>
           <div className="box sepe"><div/><h4>SECONDARY BUTTON</h4></div>
+          <div className="box dslogin"><div/><h4>DUCK STORE LOGIN</h4></div>
         </div>
       </div>
     </div>

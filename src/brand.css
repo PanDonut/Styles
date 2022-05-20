@@ -23,8 +23,15 @@
   --menu: #121319;
   --menu-col: #fff;
   --akcent: #5b88e1;
-  --brand1: #72D4FF;
-  --brand2: #9EE1FF;
-  --brandshadow1: #68C1E8;
-  --brandshadow2: #91CFEA;
+  --brand1: #72d4ff;
+  --brand2: #9ee1ff;
+  --brandshadow1: #68c1e8;
+  --brandshadow2: #91cfea;
+  --dslogin: rgb(0, 153, 255);
+  --secondary: rgb(29.25, 29.25, 29.25);
+  --third: rgb(31, 31, 31);
+  --primary-bg: rgba(31, 31, 31, 1);
+  --primary: rgba(33, 33, 33, 1);
+  --text: #fff;
+  --range: #999;
 }
